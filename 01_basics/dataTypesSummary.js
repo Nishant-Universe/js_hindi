@@ -28,4 +28,14 @@ console.log("Hello World");
 
 }
 console.log(typeof Symbol);
+let user0ne={
+    email:"user@google.com",
+    UPI:"user1upi"
+}
+let userTwo=user0ne;
+
+userTwo.email="nisaht@google.com"
+console.log(user0ne.email);
+console.log(userTwo.email);
+
 
