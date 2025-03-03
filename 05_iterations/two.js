@@ -16,9 +16,12 @@ while(arr<array.length){
 
 let score=1
 do{
-console.log();
+console.log("print do");
+
+    console.log(score);
+    score ++;
+   
+    
 
 }
-while (condition) {
-    
-}
+while (score<10) ;
